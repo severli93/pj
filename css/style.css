@@ -1,0 +1,19 @@
+#header{
+  color:#9b80ff;
+  text-transform: none;
+}
+header .header-content .header-content-inner p{
+  /*color:#5b10b4;*/
+  color:#9b80ff;
+}
+header .header-content {
+  top:75%;
+}
+@media(max-width: 768px) {
+  header .header-content-inner {
+    margin-top:75%;
+  }
+}
+#btn-more{
+  text-transform: none;
+}
