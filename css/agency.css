@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -235,8 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  /*color: white;*/
-  color:##9b80ff;
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -556,7 +555,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  /*background-image: url('../img/map-image.png');*/
+  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }

@@ -1,19 +1,63 @@
-#header{
-  color:#9b80ff;
-  text-transform: none;
+body {
+  background-color: #ffffff;
+}
+.bg-light-gray{
+  background-color: #eeeeee;
+}
+.container-fluid{
+  background-color: #eeeeee;
+}
+footer {
+  background-color: #eeeeee;
+}
+header {
+  margin-top: 54px;
+  padding: 30% 0% 20% 0%;
 }
 header .header-content .header-content-inner p{
-  /*color:#5b10b4;*/
-  color:#9b80ff;
+  color:rgb(51,51,51);
 }
 header .header-content {
-  top:75%;
-}
-@media(max-width: 768px) {
-  header .header-content-inner {
-    margin-top:75%;
-  }
-}
-#btn-more{
+  padding:0 0;
+  color:#9b80ff;
   text-transform: none;
+}
+
+.navbar-default .navbar-header .navbar-brand{
+  color:rgb(51,51,51);
+}
+.navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover{
+  color:rgb(51,51,51);
+}
+.navbar-default .nav>li>a, .navbar-default .nav>li>a {
+  color:rgb(51,51,51)
+}
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: none;
+}
+.btn-xl {
+  padding: 15px 30px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: #fec503;
+}
+footer span.copyright {
+  line-height: 40 px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+@media (min-width: 768px) {
+  header {
+    min-height: auto;
+    height: 80%;
+    position: inherit;
+    top: auto;
+    padding: 0;
+  }
 }
