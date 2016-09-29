@@ -9,6 +9,10 @@ body {
 }
 footer {
   background-color: #eeeeee;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  z-index: 99;
 }
 header {
   margin-top: 54px;
@@ -44,6 +48,13 @@ header .header-content {
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color: #fec503;
+}
+
+.text{
+  /*text-align: left;*/
+  margin-top: 15%;
+  margin-left: 0%;
+  margin-right:0%;
 }
 footer span.copyright {
   line-height: 40 px;
