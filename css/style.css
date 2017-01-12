@@ -5,16 +5,11 @@ body {
   background-color: #eeeeee;
 }
 .container-fluid{
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
+  background-color: rgba(255,255,255,0.6);
 }
-footer {
-  background-color: #eeeeee;
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  z-index: 99;
-  padding: 15px 0;
-  text-align: center;
+.navbar-default.affix{
+    background-color: rgba(255,255,255,0.6);
 }
 
 .text-left{
@@ -32,7 +27,12 @@ header .header-content {
   color:#9b80ff;
   text-transform: none;
 }
-
+.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover{
+  color:#fed136;
+}
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover{
+  color:#fed136;
+}
 .navbar-default .navbar-header .navbar-brand{
   color:rgb(51,51,51);
 }
@@ -57,7 +57,6 @@ header .header-content {
 }
 
 .text{
-  /*text-align: left;*/
   margin-top: 15%;
   margin-left: 0%;
   margin-right:0%;
@@ -69,6 +68,53 @@ footer span.copyright {
   text-transform: none;
 }
 
+.timeline > li .timeline-image {
+  z-index: 0;
+}
+.timeline>li .timeline-image {
+  margin-left: 11pt;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 100%;
+  border: 7px solid #ffffff;
+}
+
+.timeline:before {
+    bottom: 110px;
+    background-color: #ffffff;
+    width: 4px;
+}
+#experience{
+  /*margin-bottom: 150px;*/
+}
+section h2.section-heading {
+    margin-top: -100px;
+}
+.img-border {
+  border: 1px solid #eeeeee;
+  border-radius: 0.5%;
+}
+footer {
+  background-color: rgba(255,255,255,0.6);
+  width: 100%;
+  bottom: 0px;
+  z-index: 99;
+  padding: 15px 0;
+  text-align: center;
+}
+.footer-mobile{
+  position: default;
+}
+.footer-web{
+  display: none;
+  position: fixed;
+}
+@media (min-width:500px){
+  .timeline:before {
+      bottom: 100px;
+  }
+}
 @media (min-width: 768px) {
   header {
     min-height: auto;
@@ -76,5 +122,26 @@ footer span.copyright {
     position: inherit;
     top: auto;
     padding: 0;
+  }
+  .footer-mobile{
+    display: none;
+  }
+  .footer-web{
+    display: block;
+    position: fixed;
+  }
+}
+@media (min-width: 768px) {
+  .timeline>li .timeline-image {
+      width: 50px;
+      height: 50px;
+      left: 50%;
+      margin-left: -25px;
+  }
+  .timeline:before {
+      bottom: 120px;
+  }
+  #experience{
+    margin-bottom: 0px;
   }
 }
