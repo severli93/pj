@@ -51,6 +51,8 @@ header .header-content {
 }
 .btn-xl {
   padding: 15px 30px;
+  background: transparent;
+  color: #fed136;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color: #fec503;
@@ -89,7 +91,7 @@ footer span.copyright {
   /*margin-bottom: 150px;*/
 }
 section h2.section-heading {
-    margin-top: -100px;
+    margin-top: -50px;
 }
 .img-border {
   border: 1px solid #eeeeee;
