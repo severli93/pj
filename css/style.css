@@ -18,6 +18,7 @@ body {
 header {
   margin-top: 54px;
   padding: 30% 0% 20% 0%;
+  /*background-image: url('../img/header-bg copy.jpg');*/
 }
 header .header-content .header-content-inner p{
   color:rgb(51,51,51);
@@ -51,8 +52,6 @@ header .header-content {
 }
 .btn-xl {
   padding: 15px 30px;
-  background: transparent;
-  color: #fed136;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color: #fec503;
