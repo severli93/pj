@@ -28,7 +28,7 @@
   stroke: #e6162d;
 }
 .twitter rect.news {
-  fill: none;
+  fill: #2BAAE0;
   stroke-width: 1px;
   stroke: #2BAAE0;
 }
@@ -38,7 +38,7 @@
   stroke: #2BAAE0;
 }
 .weibo rect.news {
-  fill: none;
+  fill: #e6162d;
   stroke-width: 1px;
   stroke: #e6162d;
 }
