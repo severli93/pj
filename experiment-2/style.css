@@ -146,3 +146,19 @@ button.btn.active {
   opacity: 1;
   height: auto;
 }
+.prevLink{
+  font-size: 10pt;
+  color: #666;
+}
+.copyright{
+  font-size: 10pt;
+  color: #666;
+}
+a, a:focus, a:hover {
+    color: inherit;
+}
+.footer{
+    padding-top: 20px;
+    /*background-color: #eee;*/
+    /*bottom: 0px;*/
+}
