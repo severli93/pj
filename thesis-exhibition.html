@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thesis Visualization Prototype</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Abril+Fatface|Libre+Baskerville" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./experiment-2/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./experiment-2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./experiment-2/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--.container-->
+    <div class="container-fluid">
+      <div class="row top">
+        <div class="heading1"><h1 class="col-md-12">Visualizing The Invisible Wall</h1></div>
+        <div class="subHeading">
+          <div class="col-md-offset-8 col-md-4"><h3>The Impact of The Great Firewall of China on Public Opinion</h3></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h2 class="heading2">History of Internet Censorship Development in China</h2>
+        </div>
+      </div>
+      <img src="./experiment-2/img/History-line-02.svg" class="img-responsive" alt="Responsive image">
+
+      <div class="container">
+          <div class="row">
+            <h2 class="heading2">Case Study</h2>
+            <div class="col-md-12">
+              <h4 class="heading3">1 – Choose a Topic</h4>
+              <div class="h4" id="currentTopic"></div>
+            </div>
+            <div class="col-md-12 pie">
+              <h4 class="heading3">2 – Look up total no. of tweets</h4>
+              <svg id="pie-graph"></svg>
+              <div class="col-md-6 mediaSource">
+                <p>
+                  <i class="fa fa-weibo fa-2x" aria-hidden="true"></i>
+                  Sina Weibo &nbsp;&nbsp;
+                  <span id="noWeibos" class="lead"></span> Tweets
+                  <span id="noNews" class="lead weibo"></span>
+                  <span id="noLatest" class="lead weibo"></span>
+                </p>
+                </div>
+              <div class="col-md-6 mediaSource">
+                <p>
+                  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  Twitter &nbsp;&nbsp;
+                  <span id="noTweets" class="lead"></span> Tweets
+                </p>
+              </div>
+              <h4 class="heading3" >3 – Content comparison</h4>
+            </div>
+          </div>
+      </div>
+      <div class="viz row">
+          <div class="col-md-12 bullet">
+            <svg id="bullet-graph-news"></svg>
+            <div class="tooltip" id="tooltip1">
+              <p class="h6">
+                tweets-count:&nbsp;<span id="tweetCount"></span>
+              </p>
+              <p class="h6">
+                freq-score:&nbsp;<span id="freqScore"></span>
+              </p>
+              <p class="h6">
+                words:&nbsp;
+                <h6><span id="wordList"></span></h6>
+              </p>
+            </div>
+            <div class="tooltip" id="tooltip2">
+              <p class="h6">
+                words:&nbsp;
+                <h6><span id="wordList"></span></h6>
+              </p>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 bullet">
+            <svg id="bullet-graph-users"></svg>
+          </div> -->
+      </div>
+      <div class="container" style="display:none;">
+        <div class="col-md-12 bar">
+          <h4 class="heading3" >4 – Tweets Content Lookup</h4>
+          <svg id="bar-graph"></svg>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+
+              <ul class="list-inline ">
+                  <li>
+                    <span class="prevLink">previous experiments:</span>
+                  </li>
+                  <li>
+                    <span class="prevLink"><a href="https://severli93.github.io/thesis2016/phase1.html" target="_blank">prototype-1</a></span>
+                  </li>
+                  <li>
+                    <span class="prevLink"><a href="https://severli93.github.io/thesis2016/phase3.html" target="_blank">prototype-2</a></span>
+                  </li>
+                  <li>
+                    <span class="prevLink"><a href="https://severli93.github.io/thesis2016/phase4.html" target="_blank">prototype-3</a></span>
+                  </li>
+                  <li>
+                    <span class="prevLink"><a href="https://severli93.github.io/thesis2016/phase4-2.html" target="_blank">prototype-4</a></span>
+                  </li>
+                  <li>
+                    <span class="prevLink"><a href="./experiment-2/first-prototype.pdf" target="_blank">prototype-5</a></span>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-sm-3">
+              <ul class="list-inline quicklinks">
+                <span class="copyright">Copyright &copy;xingyue.li 2017</span>
+              </ul>
+          </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="/experiment-2/queue/queue.min.js"></script>
+    <script src="./experiment-2/lib/crossfilter.min.js"></script>
+    <script src="./experiment-2/dataClasses.js"></script>
+    <script src="./experiment-2/visualisation.js"></script>
+    <script src="./experiment-2/script.js"></script>
+  </body>
+</html>

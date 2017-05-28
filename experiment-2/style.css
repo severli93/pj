@@ -1,0 +1,164 @@
+.weibo{
+  fill:#e6162d;
+}
+.twitter{
+  fill: #2BAAE0;
+}
+.latest-bulletG circle.twitter {
+  fill: white;
+  stroke-width: 2px;
+  stroke: #2BAAE0;
+}
+.news-bulletG circle.twitter {
+  fill: #2BAAE0;
+  stroke-width: 0px;
+  stroke: #2BAAE0;
+}
+.fa-twitter {
+  color:#2BAAE0;
+}
+.latest-bulletG circle.weibo {
+  fill: white;
+  stroke-width: 2px;
+  stroke: #e6162d;
+}
+.news-bulletG circle.weibo {
+  fill: #e6162d;
+  stroke-width: 0px;
+  stroke: #e6162d;
+}
+.twitter rect.news {
+  fill: #2BAAE0;
+  stroke-width: 1px;
+  stroke: #2BAAE0;
+}
+.twitter rect.latest {
+  fill: #2BAAE0;
+  stroke-width: 1px;
+  stroke: #2BAAE0;
+}
+.weibo rect.news {
+  fill: #e6162d;
+  stroke-width: 1px;
+  stroke: #e6162d;
+}
+.weibo rect.latest {
+  fill: #e6162d;
+  stroke-width: 1px;
+  stroke: #e6162d;
+}
+.fa-weibo {
+  color:#e6162d;
+}
+line.bullet-line {
+  stroke: #888;
+  stroke-width: 1;
+}
+.heading1{
+  margin-top:100px;
+  margin-bottom: 20px;
+}
+.heading2{
+  padding-bottom: 20px;
+}
+.heading3{
+  padding-bottom: 15px;
+}
+h3,h2,h4,h6 {
+  font-family: 'Abhaya Libre', serif;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 5.5em;
+}
+h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+.h4,.h6 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+#currentTopic{
+  text-align: center;
+}
+.mediaSource{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 12pt;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.domain{
+  stroke:none;
+}
+.tick{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 12pt;
+}
+.axisY .tick line {
+  stroke:none;
+}
+.axisY {
+  transform: translate(-50,120);
+}
+.axisX {
+  transform: translate(0,-20);
+}
+.btn {
+  font-size: inherit;
+}
+button.topic-btn{
+  border-color:none;
+  background-color:inherit;
+  letter-spacing: 1px;
+}
+
+button.btn.topic-btn:hover{
+  border-color:#888;
+  background-color:none;
+}
+button.btn.active {
+  background-color: #eee;
+  box-shadow: inherit;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+.lead{
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+}
+.tooltip{
+  height:0px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 3px;
+  transition: all 0.7s;
+  z-index: 999;
+}
+#tooltip1{
+  width: 200px;
+}
+#tooltip2{
+  width: 100px;
+}
+.visible {
+  opacity: 1;
+  height: auto;
+}
+.prevLink{
+  font-size: 10pt;
+  color: #666;
+}
+.copyright{
+  font-size: 10pt;
+  color: #666;
+}
+a, a:focus, a:hover {
+    color: inherit;
+}
+.footer{
+    padding-top: 20px;
+    /*background-color: #eee;*/
+    /*bottom: 0px;*/
+}
