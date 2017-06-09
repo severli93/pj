@@ -151,3 +151,7 @@ footer {
  text-align: center;
  margin-top:10%;
 }
+#NameParagraph{
+  font-size: 30px;
+  text-transform:initial;
+}
