@@ -67,18 +67,33 @@
         </nav>
 
         <!--Header Section-->
-        <!-- <header id="header">
-            <div class="header-content">
-                <div class="header-content-inner">
-                    <h1 id="welcome">
-                      <p style="text-transform:initial">
-                        Hi, this is Xingyue Li. </br>I am an information designer. I design, I paint, I teach, and sometimes code. </br>I like to use design as a tool to help people understand each other.
+        <header id="header">
+            <div class="header-content" id="welcome">
+                <div class="header-content-inner row">
+                  <div class="col-md-offset-0 col-md-4 col-sm-6">
+                    <h1>
+                      <p id="NameParagraph">
+                        Hello, I am Xingyue Li
                       </p>
                     </h1>
-                    <a href="#portfolio" class="page-scroll"><button type="button" class="btn btn-primary btn-xl " data-dismiss="modal"><i class="fa fa-chevron-down"></i> </button></a>
+                  </div>
+                  <div class="col-md-offset-1 col-md-7 col-md-offset-1 col-sm-4 Intro">
+                    <p>an information designer, a visual thinker,
+                      <br /> a UI/UX learner
+                      and sometimes a creative illustrator.
+                    </p>
+                    <p >
+                      I see design as a tool that
+                      functionally connects audiences and information by laying out
+                      visual metaphors.
+                    </p>
+                  </div>
+                </div>
+                <div class="row" >
+                  <a href="#portfolio" class="page-scroll"><button type="button" class="btn btn-primary btn-xl " data-dismiss="modal"><i class="fa fa-chevron-down"></i> </button></a>
                 </div>
             </div>
-        </header> -->
+        </header>
 
         <!-- Portfolio Grid Section -->
         <section id="portfolio" class="bg-light-gray">
@@ -89,6 +104,34 @@
                     </div>
                 </div>
                 <div class="row">
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                      <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/instagram/Votes_and_Posts.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>Votes&Posts:US Election</h4>
+                          <p class="text-muted">Dataviz, Web Design</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                      <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/airbnb/airbnbviz.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>Airbnb Boston Dataviz</h4>
+                          <p class="text-muted">Dataviz</p>
+                      </div>
+                  </div>
                   <div class="col-md-4 col-sm-6 portfolio-item">
                       <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
                           <div class="portfolio-hover">
@@ -115,20 +158,6 @@
                         <div class="portfolio-caption">
                             <h4>Togo Flood Prediction</h4>
                             <p class="text-muted">Dataviz, Inforgraphic</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airbnb/airbnbviz.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Airbnb Boston Dataviz</h4>
-                            <p class="text-muted">Dataviz</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -215,20 +244,6 @@
                             <p class="text-muted">User Experience Design</p>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/uselectionviz.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>US Election Dataviz</h4>
-                            <p class="text-muted">Dataviz, Web Design</p>
-                        </div>
-                    </div> -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
@@ -330,7 +345,7 @@
                             <h3>Programming</h3>
                             <div class="text">
                               <p><strong> Dataviz </strong></p>
-                              <p>D3 Javascript, R</p>
+                              <p>D3 Javascript, R, SQL</p>
                               <p><strong>Web-front Development</strong><p>
                               <p>HTML, CSS</p>
                             </div>
@@ -356,7 +371,7 @@
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h4>Jan 2017–Now</h4>
+                                        <h4>Jan 2017–May 2017</h4>
                                         <h4 class="subheading">Part-time Instructor</h4>
                                     </div>
                                     <div class="timeline-body">
@@ -489,7 +504,8 @@
                             <div class="col-lg-12">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>UNESCO Wworld Heritage Site – Mount Emei & Leshan Giant Buddha</h2>
+                                    <h2>Mount Emei & Leshan Giant Buddha</h2>
+                                    <h3>Brand Design for UNESCO World Heritage Site</h3>
                                     <ul class="list-inline item-intro text-muted">
                                         <li>Date: April 2017</li>
                                         <li>Instructor: Douglass Scott</li>
@@ -498,14 +514,21 @@
                                     <ul></ul>
 
                                     <div class="text-left">
-                                    <p>This is a design project on the Graphic Design Synthesis class in Northeastern University.
-                                      Students are supposed to select an UNESCO World Heritage Site and design a brand system for it.
-
-                                    </br>The whole project contains: 1.brand summary 2.three advertisements for <i>The New Yorker</i> magazine to promote the exhibition about this site held by the Museum of Fine Arts Boston.
-                                  3. stationary sets : letter head, envelope and business card 4.Information sheet contains maps and introduction of the site 5.Website of the site 6.Site sign 7. Booklet of the site and history of UNESCO world heritage site for tourists. </p>
+                                    <p>
+                                      Designed a brand system for the UNESCO World Heritage Site, Mount Emei and Leshan Giant Buddha.
+                                      <br />This is a design project on the Graphic Design Synthesis class in Northeastern University.
+                                      </br>The whole project contains:
+                                      <br />1.<b>Brand summary</b>.
+                                      <br />2.<b>Advertisements</b> for <i>The New Yorker</i> magazine to promote the exhibition about this site held by the Museum of Fine Arts Boston.
+                                      <br />3.Stationary sets : <b>letter head</b>, <b>envelope</b> and <b>business card</b>.
+                                      <br />4.<b>Information sheet</b> contains maps and introduction of the site.
+                                      <br />5.<b>Website</b>
+                                      <br />6.<b>Site sign</b>
+                                      <br />7.<b>Booklet</b> of the site and history of UNESCO world heritage site for tourists.
+                                    </p>
                                     </div>
                                     <h3>Presentations</h3>
-                              
+
                                     <h4>I. Brand Summary</h4>
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/brand-summary-final-2.png" alt="">
                                     <h4>II. Stationary Set</h4>
@@ -516,9 +539,9 @@
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard3.png" alt="">
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard4.png" alt="">
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard5.png" alt="">
-                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard3@0,5x.png" alt="">
-                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard4@0,5x.png" alt="">
-                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard5@0,5x.png" alt="">
+                                    <!-- <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard3@0,5x.png" alt=""> -->
+                                    <!-- <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard4@0,5x.png" alt=""> -->
+                                    <!-- <img class="img-responsive img-centered " src="img/portfolio/UNESCO/Artboard5@0,5x.png" alt=""> -->
 
                                     <h4>IV. Website</h4>
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/web-phone-final.svg" alt="">
@@ -528,7 +551,29 @@
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/site-sign-final_1.png" alt="">
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/site-sign-final_2.png" alt="">
                                     <img class="img-responsive img-centered " src="img/portfolio/UNESCO/site-sign-final_3.png" alt="">
-                                    <h4>To Be Continued…</h4>
+                                    <h4>V.Tourist Booklet</h4>
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/DSC05862.jpg" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/DSC05882.jpg" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/DSC05866.jpg" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/DSC05869.jpg" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/DSC05872.jpg" alt="">
+
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/1.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/2.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/VisitorBookPresent/3.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/4.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/5.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/6.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/7.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/8.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/9.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/10.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/11.png" alt="">
+                                    <img class="img-responsive img-centered " src="img/portfolio/UNESCO/book/VisitorBookPresent/12.png" alt="">
+
+
+
+
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 </div>
                             </div>
@@ -879,6 +924,9 @@
                                         <li>#Dataviz# #D3.js#</li>
                                     </ul>
                                     <div class="text-left">
+                                      <p>
+                                        Designed and developed a web exploration tool visualizing data about Airbnb rooms in Boston, which consists of geographical distribution and reviews.
+                                      </p>
                                         <p>This is the final project of Siqi Zhu's <i>Visualization Technology</i> class.
                                            The data is a csv file provided by the instructor. I designed and developed the visualization by using D3 javascript and Bootstrap.</p>
                                         <p>You can visit the project <a href="http://severli93.github.io/Airbnb-Boston-Dataviz/">here</a>.</p>
@@ -908,18 +956,22 @@
                             <div class="col-lg-12">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>US Election Dataviz</h2>
+                                    <h2>Votes&Posts:US Election Dataviz</h2>
                                     <ul class="list-inline item-intro text-muted">
                                         <li>Date: April 2016</li>
                                         <li>Coworker: <a href="https://navarjun.com">Navarjun Singh</a></li>
                                         <li>Instructor: Siqi Zhu</li>
                                         <li>#Data Viz# #D3.js# #Instagram data</li>
                                     </ul>
-                                    <img class="img-responsive img-centered" src="img/portfolio/uselectionviz-lg.png" alt="">
+                                    <a href="https://navarjun.github.io/votes-and-posts/"><img class="img-responsive img-centered" src="img/portfolio/instagram/Votes_and_Posts_lg.png" alt=""></a>
+
                                     <div class="text-left">
-                                        <p>This is the final project of Siqi Zhu's <i>Visualization Technology 2</i> class.
-                                        The data is scripted from Instagram, stored in Node.js and visualized by D3 javascript. I designed the layout and visualization with Navarjun. He is mainly responsible for retrieving, storing and processing data.</p>
-                                        <p>Although some of the function might not work because of the x-frame header, you can still visit the project at <a href="https://na-instagram-data.appspot.com">here</a>. </p>
+                                      <p>
+                                        Designed a visualization about seven candidates which compares their Instagram activity and primary election results in 2016 US presidential election.
+                                      </p>
+                                      <p>This is the final project of Siqi Zhu's <i>Visualization Technology 2</i> class.
+                                      The data is scripted from Instagram, stored in Node.js and visualized by D3 javascript. I designed the layout and visualization with Navarjun. He is mainly responsible for retrieving, storing and processing data.</p>
+                                      <p>You can visit the project at <a href="https://navarjun.github.io/votes-and-posts/">here</a>. </p>
                                     </div>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 </div>
@@ -1107,7 +1159,7 @@
         </div>
 
         <!-- Portfolio Modal 9 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
@@ -1120,7 +1172,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here -->
+
                                     <h2>Merci Garden</h2>
                                     <ul class="list-inline item-intro text-muted">
                                         <li>Date: August 2015</li>
@@ -1139,7 +1191,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Portfolio Modal 10 -->
         <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
