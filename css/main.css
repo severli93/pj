@@ -1,0 +1,129 @@
+a {
+  color: #8266ff;
+}
+a:focus, a:hover {
+  color: #2d32d2;
+}
+.text-primary{
+  color:#f8467b;
+}
+i.fa.fa-4x.fa-graduation-cap.text-primary.sr-icons{
+  opacity: 1;
+  transition: all 0.6s ease;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Nunito', sans-serif;
+  font-weight:700;
+}
+.tab > a, a:focus{
+  color: inherit;
+}
+.tab > a:hover{
+  color: white;
+  background-color: #8266ff;
+}
+#header {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction:column;
+  height: 340px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgba(248, 70, 123, 0.4), rgba(45,50,210, 0.6));
+}
+#nav {
+  /*margin-top: 3%;*/
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+#portfolio {
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#about{
+  margin-top: 5%;
+}
+.tab{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-align: center;
+  color: #8266ff;
+  padding: 10px;
+}
+.hover{
+  color: white;
+  background-color:#8266ff;
+}
+.click{
+  color: white;
+  background-color:#8266ff;
+}
+.title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+}
+.title-2{
+  font-weight: 400;
+  font-size: 2em;
+}
+.title-3{
+  font-weight: 400;
+}
+.intro{
+  font-family: 'Lato', sans-serif;
+  color:white;
+  font-weight: 300;
+}
+.brief{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  text-align: center;
+}
+.light{
+  color:#dddddd;
+}
+.dark{
+  color:#444444;
+}
+.portfolio-item {
+  padding-bottom:20px;
+}
+.portfolio-caption{
+  text-align: center;
+  margin-top: -10px;
+}
+footer {
+  margin-top:3%;
+  width: 100%;
+  bottom: 0px;
+  z-index: 99;
+  padding: 10px 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgba(248, 70, 123, 0.4), rgba(45,50,210, 0.6));
+}
+.footer-web{
+  display: block;
+  width: 100%;
+}
+.social-buttons{
+  font-size: 1.2em;
+}
+.social-buttons > li{
+  padding-right: 20px;
+  padding-left: 20px;
+}

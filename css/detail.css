@@ -1,32 +1,56 @@
-a, a:focus, a:hover {
-  color: #fec503;
+/*a {
+  color: #8266ff;
+}
+a:focus, a:hover {
+  color: #2d32d2;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}*/
+.back{
+  z-index: 99;
+  position:fixed;
 }
 #header {
   display: flex;
-  height: 200px;
+  height: 300px;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/portfolio/airbnb/airbnbViz1.png');
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/portfolio/airbnb/airbnbViz-1.png');*/
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9),rgba(248, 70, 123, 0.2), rgba(45,50,210, 0.6)),  url('../img/portfolio/airbnb/airbnbViz-1.png');
 }
-footer span.copyright {
-  line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
-}
-footer {
-  background-color: #666;
+/*footer {
+  margin-top:3%;
   width: 100%;
   bottom: 0px;
   z-index: 99;
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
-}
-.footer-mobile{
-  position: default;
+  background-color:#666666;
 }
 .footer-web{
   display: block;
   width: 100%;
-  /*position: fixed;*/
-}
+}*/
+/*.title{
+  font-family: 'Nunito', sans-serif;
+  font-weight:300;
+  font-size: 4em;
+  color: #8266ff;
+}*/
+/*.brief{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color:#dddddd;
+  text-align: center;
+}*/
+/*.social-buttons{
+  font-size: 1.2em;
+}*/
+/*ul.list-inline.social-buttons > li{
+  padding-right: 20px;
+  padding-left: 20px;
+}*/
